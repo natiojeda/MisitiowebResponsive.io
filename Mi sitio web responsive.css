@@ -1,0 +1,93 @@
+/* Imagen estandar*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 10px 15px;
+    margin: 5% auto;
+    background-color: rgb(233, 171, 252);
+    color: black;
+    max-width: 80%;
+}
+
+.saludo{
+    text-align: center;
+    margin: 3% auto;
+    background-color: pink;
+    color:mediumvioletred;
+    padding:0;
+} 
+#introd{ 
+    text-align:center;
+    background-color: rgba(173, 250, 179, 0.562);
+    color: black;
+    margin: 2% auto;
+    padding: 1%;
+    max-width: 80%;
+} 
+
+
+h2{
+ padding-bottom: 1%;
+    font-size: 150%;
+}
+
+h1{
+    padding-top:1%;
+}
+
+a:link {
+    color: fuchsia ;
+}
+a:visited {
+    color:teal;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 15px; 
+}
+
+.imagen{
+    padding:15px;
+    width:350px ;
+    max-width: 350px;
+}
+
+h3{
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+#ballet{
+    background-color: khaki;
+}
+
+/* Media Queries para Pantallas Pequeñas */
+@media (max-width: 768px) {
+    .saludo, #introd {
+        margin: 5% auto;
+        padding: 2%;
+        max-width: 90%;
+    }
+
+    .imagenes {
+        gap: 10px;
+    }
+
+    .imagen {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    p {
+        margin: 5% auto;
+        max-width: 90%;
+    }
+}
